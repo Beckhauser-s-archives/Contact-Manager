@@ -115,6 +115,10 @@ footer {
     font-size: 22px !important;
   }
   /* navbar style ends */
+  .feature-link{
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
 
   /* card styles */
   .card-header {
