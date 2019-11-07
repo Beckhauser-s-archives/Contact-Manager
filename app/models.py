@@ -17,8 +17,7 @@ class Contact(models.Model):
     ))   
     image = models.ImageField(upload_to='images/', blank = True)
     #date_added = models.DateField(auto_now_add=True) 
-    date_added = models.DateTimeField()
+    date_added = models.DateTimeField(default=datetime.now)
 
     def __str__(self):
         return self.name
-
