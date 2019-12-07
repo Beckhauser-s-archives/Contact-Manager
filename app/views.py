@@ -9,19 +9,6 @@ from django.contrib.auth.decorators import login_required
 from django.urls import reverse_lazy
 from django.contrib import messages
 
-# Create your views here.
-'''def home(request):
-    context = {
-        'contacts' : Contact.objects.all()
-
-    }
-    return render(request,'index.html', context)'''
-
-'''def detail(request, id):
-    context = {
-        'contact': get_object_or_404(Contact, pk=id)
-    }
-    return render(request,'detail.html', context)'''
 
 class HomePageView(LoginRequiredMixin, ListView):
     template_name = 'index.html'

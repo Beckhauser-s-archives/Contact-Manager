@@ -1,14 +1,11 @@
 :root {
   --back: #29a7a6;
-  /* --logo: #ff70a6; */
   --girl: #e64298;
   --boy: #2874dd;
 }
 body {
   font-family: Lato, sans-serif;
 }
-
-/* Navbar Styles */
 
 nav {
   font-weight: light;
@@ -23,7 +20,6 @@ nav {
 .logo {
   font-size: 30px;
   letter-spacing: 1px;
-  /* background: var(--logo); */
   color: white;
   padding: 2px 12px;
   border-radius: 8px;
@@ -41,9 +37,6 @@ nav {
   background-color: #f2f3f5 !important;
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
 }
-/* Navbar Styles end */
-
-/* Card Styles */
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -83,18 +76,13 @@ img {
 .card-body p {
   cursor: pointer;
 }
-/* Card Styles end */
 
-/* Main Section */
 .main-part {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-/* Main Section ends */
-
-/* footer style */
 footer {
   background-color: var(--back);
   color: white;
@@ -102,11 +90,8 @@ footer {
   border-bottom: 3px solid var(--back);
 }
 
-/* footer style ends*/
-
-/* Media Queries */
 @media only screen and (max-width: 768px) {
-  /* navbar style */
+
   nav {
     flex-direction: column;
   }
@@ -114,13 +99,13 @@ footer {
   .logo {
     font-size: 22px !important;
   }
-  /* navbar style ends */
+  
   .feature-link{
     margin-top: 5px !important;
     margin-bottom: 5px !important;
   }
 
-  /* card styles */
+  
   .card-header {
     font-size: 90% !important;
   }
@@ -131,14 +116,11 @@ footer {
   .card-body {
     padding: 8px 8px 0 8px;
   }
-  /* card styles end */
-
-  /* footer style */
+  
   footer {
     font-size: 98% !important;
     font-weight: light;
     letter-spacing: 1px;
   }
-  /* footer style ends */
 }
-/* Media Queries Ends*/
+

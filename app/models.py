@@ -2,10 +2,7 @@ from django.db import models
 from django.utils.timezone import datetime
 from django.contrib.auth.models import User
 
-# Create your models here.
-# Quando fazer uma alteração 
-# python manage.py makemigrations
-# python manage.py migrate
+
 class Contact(models.Model):
     manager = models.ForeignKey(User, on_delete=models.CASCADE, default=None)
     name = models.CharField(max_length=20)
@@ -18,7 +15,6 @@ class Contact(models.Model):
         ('other', 'Other')
     ))   
     image = models.ImageField(upload_to='images/', blank = True)
-    #date_added = models.DateField(auto_now_add=True) 
     date_added = models.DateTimeField(default=datetime.now)
 
     def __str__(self):
