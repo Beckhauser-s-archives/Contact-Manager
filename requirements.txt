@@ -2,7 +2,7 @@ astroid==2.2.5
 colorama==0.4.1
 defusedxml==0.6.0
 diff-match-patch==20181111
-Django==2.2.4
+Django==2.2.27
 django-crispy-forms==1.8.0
 django-import-export==1.2.0
 et-xmlfile==1.0.1
