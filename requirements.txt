@@ -13,7 +13,7 @@ MarkupPy==1.14
 mccabe==0.6.1
 odfpy==1.4.0
 openpyxl==3.0.0
-Pillow==6.2.0
+Pillow==9.3.0
 pylint==2.3.1
 pytz==2019.2
 PyYAML==5.1.2
